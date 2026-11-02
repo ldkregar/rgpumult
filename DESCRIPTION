@@ -1,12 +1,14 @@
 Package: rgpumult
-Title: What the Package Does (One Line, Title Case)
+Title: Basic GPU Matrix Multiplication Using CUDA
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: c(
+    person("Nick", "Williams", , "nw14@sanger.ac.uk", role = "aut"),
+    person("Martin", "Pollard", , "mp15@sanger.ac.uk", role = "aut"),
+    person("Lori Dolores", "Kregar", , "ldkregar@pm.me", role = c("aut", "cre")))
+Description: A very basic R wrapper around CUDA for multiplying matrices on
+    a GPU. It has not been tested for memory leaks, and general matrix
+    multiplication still needs to be tiled.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
