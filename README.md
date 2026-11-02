@@ -1,8 +1,8 @@
 # rgpumult
 
 R package with very basic implementation that wraps up CUDA multiplication.
+Not tested for memory leaks. 
 
-Not tested for memory leaks.  The general matrix multiplication needs to be tiled.     
 ## Installation 
 ```r
 devtools::install_github("ldkregar/rgpumult")
