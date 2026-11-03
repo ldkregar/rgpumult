@@ -1,6 +1,6 @@
 # rgpumult
 
-R package with very basic implementation that wraps up CUDA multiplication.
+R package with very basic implementation that wraps up CUDA matrix multiplication.
 Not tested for memory leaks. 
 
 ## Installation 
